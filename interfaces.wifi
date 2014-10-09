@@ -1,0 +1,38 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+auto wlan0
+iface wlan0 inet dhcp
+  wireless-essid CMU
+#   wpa-ssid ob
+#   wpa-psk oddbotdude
+#   wpa-conf /etc/wpa_supplicant.conf
+
+#auto p2p1
+#iface p2p1 inet dhcp
+#iface p2p1 inet static
+#  address 10.0.0.91
+#   netmask 255.0.0.0
+#   gateway 0.0.0.0
+
+#auto p2p1:0
+#iface p2p1:0 inet dhcp
+#   address 10.1.0.2
+#   netmask 255.0.0.0
+
+#auto p2p1:1
+#iface p2p1:1 inet dhcp
+#   address 10.2.0.2
+#   netmask 255.0.0.0
+
+
+#iface vlan1 inet static
+#    vlan-raw-device p2p1
+#    address 10.0.3.2
+#    netmask 255.255.0.0
+
+
